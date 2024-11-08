@@ -1,16 +1,16 @@
 # 4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis
 
-# Aim:
+## Aim:
 
 Synthesize 4Bit-Up-Down-Asynchronous-Reset-Counter design using Constraints and analyse reports, Timing, area and Power.
 
-# Tool Required:
+## Tool Required:
 
 Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
 Synthesis: Genus
 
-## Step 1: Getting Started
+### Step 1: Getting Started
 
 Synthesis requires three files as follows,
 
@@ -20,7 +20,7 @@ Synthesis requires three files as follows,
 
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
 
- ## Step 2 : Creating an SDC File
+ ### Step 2 : Creating an SDC File
 
 •	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
@@ -46,7 +46,7 @@ iv → Sets Clock Uncertainty to 10ps.
 
 v, vi → Sets the maximum limit for I/O port delay to 1ps.
 
-# Step 3 : Performing Synthesis
+### Step 3 : Performing Synthesis
 
 The Liberty files are present in the library path,
 
@@ -63,15 +63,15 @@ used.
 
 • The Following are commands to proceed,
 
-## Synthesis RTL Schematic :
+#### Synthesis RTL Schematic :
 
-## Area report:
+#### Area report:
 
-## Power Report:
+#### Power Report:
 
-## Timing Report: 
+#### Timing Report: 
 
-## Result: 
+#### Result: 
 
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
 
